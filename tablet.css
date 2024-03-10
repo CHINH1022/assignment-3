@@ -1,0 +1,20 @@
+@media screen and (max-width: 992px) {
+  /* JOBINFO */
+  .container-3 {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  #certificate .block {
+  }
+  .inline-block {
+    display: block;
+    margin-top: 10%;
+    padding-right: 20%;
+  }
+  .inline-block img {
+    width: 100%;
+  }
+  .inline-block h4 {
+    margin-top: 10px;
+  }
+}

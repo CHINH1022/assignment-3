@@ -1,0 +1,47 @@
+@media screen and (max-width: 480px) {
+  /* NAVbar */
+  .nav-bar {
+    display: block;
+    text-align: left;
+  }
+  .object img {
+    display: none;
+  }
+  .nav-bar .object {
+    margin-bottom: 10px;
+  }
+
+  /* MUC TIEU NGHE NGHIEP TTCN */
+  .personal {
+    display: block;
+  }
+  #target {
+    padding-left: 20px;
+  }
+
+  /* KN HV HD ST NN KN */
+  .container-3 {
+    display: block;
+  }
+  /* CHUNG CHI GIAI THUONG */
+  #certificate .block {
+    display: block;
+  }
+  .inline-block {
+    display: block;
+    margin-top: 10%;
+  }
+  .inline-block img {
+    width: 100%;
+  }
+  .inline-block h4 {
+    margin-top: 10px;
+  }
+  /* DU AN  */
+  .du-an {
+    display: block;
+  }
+  .du-an .duan {
+    margin-top: 30%;
+  }
+}

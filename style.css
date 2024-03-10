@@ -1,0 +1,249 @@
+* {
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+/* Banner */
+#banner {
+  position: relative;
+}
+.name {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+#nav-bar {
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  font-family: sans-serif;
+  box-shadow: inset;
+}
+
+.nav-bar {
+  display: flex;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  justify-content: space-evenly;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: grey;
+}
+.nav-bar i {
+  color: #199cdb;
+}
+
+.nav-bar a:hover {
+  border-style: outset;
+  padding: 3px;
+}
+.me {
+  border-radius: 50%;
+  width: 50%;
+  border: outset;
+}
+
+/* THONG TIN CA NHAN */
+.personal {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+  flex: 1;
+  margin: 0;
+}
+#target {
+  background-color: aliceblue;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#personal-info {
+  background-color: lightgray;
+  padding-right: 20%;
+  padding-left: 5%;
+}
+
+.content b {
+  padding-right: 20px;
+}
+.personal h1 {
+  margin-bottom: 20px;
+}
+
+/* HIDE INFO  */
+#personal-info .content {
+  display: none;
+}
+
+/* ERROR EMAIL */
+#error-email {
+  color: red;
+  font-weight: 700;
+}
+
+/* KH HV HD ST NG  */
+#job-info {
+  padding: 50px;
+}
+
+.container-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+}
+#info {
+  border-style: solid;
+  border-width: 1px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  justify-content: center;
+  padding: 10%;
+}
+
+.container-3 .icon {
+  color: aqua;
+  font-size: 40px;
+}
+.exp-bar {
+  background-color: gray;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.blue {
+  background: #199cdb;
+}
+.group {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+.group i {
+  border-radius: 100%;
+  border-style: solid;
+  font-size: 30px;
+  padding: 30%;
+  color: #199cdb;
+}
+
+.lang {
+  margin-bottom: 10%;
+}
+.language {
+  display: inline-block;
+}
+
+/* HIDE JOB INFO (AN KY NANG NGHE NGHIEP) */
+#info .noidung {
+  display: none;
+}
+
+.view-more,
+.view.less {
+  display: none;
+}
+
+/* CHUNG CHI */
+#certificate .block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 50px;
+  padding: 10%;
+}
+
+.inline-block {
+  display: flex;
+  gap: 20px;
+}
+
+.inline-block img {
+  flex: 0.35;
+  object-fit: contain;
+}
+
+.inline-block h4 {
+  padding-bottom: 10px;
+}
+.inline-block .block-text {
+  flex: 0.7;
+}
+
+/* DU AN */
+#project {
+  padding: 10%;
+}
+
+.du-an {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.user {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.user i {
+  padding-right: 10px;
+}
+
+.user .btn-primary {
+  background-color: #199cdb;
+  border-radius: 20%;
+  -webkit-text-fill-color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.table-chung {
+  width: 100%;
+  margin: 20px auto;
+  table-layout: auto;
+  table-layout: fixed;
+}
+
+.td {
+  padding: 10px;
+  border: solid 1px;
+  text-align: center;
+}
+/* FOOTER */
+.container-4 {
+  display: flex;
+  padding: 50px;
+  gap: 30px;
+}
+
+.container-4 i {
+  font-size: 30px;
+  color: #199cdb;
+}
+
+.container-4 a {
+  text-decoration: none;
+}
